@@ -1,5 +1,13 @@
 # 🌬️ Wind Power Ramp Forecasting Using VMD–XGBoost
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+
+![XGBoost](https://img.shields.io/badge/XGBoost-ML-orange)
+
 An end-to-end machine learning framework for **8-hour wind power forecasting** and **wind ramp detection** using **Variational Mode Decomposition (VMD)**, **Extreme Gradient Boosting (XGBoost)**, and an interactive **Streamlit dashboard**.
 
 The project focuses on detecting significant wind power ramp events while maintaining reliable short-term forecasting performance. It implements the methodology presented in the associated research publication and provides an interactive dashboard for analysing forecasting results, decomposition components, and ramp detection metrics.
@@ -19,20 +27,24 @@ This project proposes a hybrid forecasting framework that:
 - Visualises results through an interactive Streamlit dashboard
 
 ---
+## 🚀 Project Highlights & Features
 
-## 🚀 Features
+This project delivers a complete end-to-end framework for **short-term (8-hour) wind power forecasting** and **wind ramp detection** using a hybrid machine learning approach. The key features include:
 
-- 8-hour wind power forecasting
-- Variational Mode Decomposition (VMD)
-- IMF-wise forecasting
-- XGBoost regression models
-- Signal reconstruction
-- Wind ramp detection
-- Forecast performance evaluation
-- Ramp detection evaluation
-- Interactive Streamlit dashboard
-- Downloadable prediction results
-- Research-oriented visualisations
+- End-to-end wind power forecasting pipeline
+- 8-hour ahead wind power prediction
+- Published research implementation
+- Variational Mode Decomposition (VMD) for signal decomposition
+- IMF-wise forecasting using XGBoost regression models
+- Signal reconstruction through IMF integration
+- Wind ramp detection using the Definition-Based Sign Indicator (DSI) approach
+- Forecast performance evaluation (MAE, RMSE, R², MAPE, sMAPE)
+- Ramp detection performance evaluation (Precision, Recall, F1-Score)
+- Interactive Streamlit dashboard for result exploration
+- Forecast visualisation and ramp event analysis
+- Downloadable prediction results and evaluation reports
+- Research-oriented visualisations and performance insights
+- Modular, reproducible, and scalable project architecture
 
 ---
 
@@ -87,6 +99,12 @@ The proposed framework consists of the following stages:
 6. Wind ramp detection using DSI
 7. Interactive dashboard visualisation
 
+## Workflow
+
+The complete forecasting framework follows the pipeline below.
+
+See **assets/workflow.md** for the detailed workflow.
+
 ---
 
 ## 📊 Performance
@@ -129,6 +147,39 @@ Run the dashboard using:
 streamlit run app/streamlit_app.py
 ```
 
+---
+## Dashboard Preview
+
+### Dashboard Overview
+
+![Overview](screenshots/overview.png)
+
+---
+
+### Forecast Analysis
+
+![Forecast Analysis](screenshots/forcast analysis.png)
+
+---
+### IMF Components
+
+![IMF Components](screenshots/IMF Components.png)
+---
+### Prediction Results
+
+![Prediction Results](screenshots/Prediction Results.png)
+---
+### Ramp Detection
+
+![Ramp Detection](screenshots/ramp detection.png)
+---
+### Methodology
+
+![Methodology](screenshots/Methodology.png)
+---
+### Research Findings
+
+![Methodology](screenshots/Research Findings.png)
 ---
 
 ## ▶️ Installation
@@ -231,6 +282,24 @@ Contributions are welcome.
 
 Please read `CONTRIBUTING.md` before submitting pull requests.
 
+---
+## Future Work
+
+Future improvements include:
+
+- Transformer-based forecasting
+- LSTM comparison
+- CEEMDAN decomposition
+- Real-time forecasting
+- Multi-site forecasting
+- Cloud deployment
+- Explainable AI for forecasting
+---
+## Acknowledgements
+
+This work is based on the published research presented at the 2024 International Conference on Modeling, Simulation & Intelligent Computing (MoSICom).
+
+The author gratefully acknowledges the support received during the research and development of this project.
 ---
 
 ## 📜 License
