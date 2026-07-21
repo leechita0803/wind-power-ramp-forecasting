@@ -1,4 +1,9 @@
 # 🌬️ Wind Power Ramp Forecasting Using VMD–XGBoost
+[![Streamlit App](https://streamlit.io)](https://wind-power-ramp-forecasting-d9bz6co2eebk4ejqsejdbk.streamlit.app/)
+
+**Live Demo:** [View Live Dashboard](https://wind-power-ramp-forecasting-d9bz6co2eebk4ejqsejdbk.streamlit.app/
+)
+
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 
