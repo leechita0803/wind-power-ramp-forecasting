@@ -54,7 +54,7 @@ This project delivers a complete end-to-end framework for **short-term (8-hour) 
 wind-power-ramp-forecasting/
 │
 ├── app/
-│   └── streamlit_app.py
+│   └── streamlit_app2.py
 │
 ├── data/
 │   ├── raw/
@@ -144,7 +144,7 @@ The dashboard provides:
 Run the dashboard using:
 
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app/streamlit_app2.py
 ```
 
 ---
@@ -229,7 +229,7 @@ python main.py
 Launch the dashboard:
 
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app/streamlit_app2.py
 ```
 
 ---
