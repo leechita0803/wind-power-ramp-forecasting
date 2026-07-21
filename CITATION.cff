@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+
+title: "Wind Power Ramp Forecasting Using VMD–XGBoost: End-to-End Forecasting and Streamlit Dashboard"
+
+message: "If you use this software in your research, please cite it using the metadata below."
+
+type: software
+
+authors:
+  - family-names: Gopalakrishnan
+    given-names: Leechita
+
+version: "1.0.0"
+
+date-released: "2026-07-21"
+
+license: MIT
+
+repository-code: "https://github.com/<YOUR_GITHUB_USERNAME>/wind-power-ramp-forecasting"
+
+keywords:
+  - Wind Power Forecasting
+  - Wind Ramp Detection
+  - Variational Mode Decomposition
+  - VMD
+  - XGBoost
+  - Renewable Energy
+  - Time Series Forecasting
+  - Machine Learning
+  - Streamlit
+  - Python
+
+abstract: >
+  This repository contains an end-to-end implementation of an
+  8-hour wind power forecasting and wind ramp detection framework
+  using Variational Mode Decomposition (VMD), XGBoost regression,
+  and an interactive Streamlit dashboard for visualisation,
+  evaluation, and analysis.
+
+preferred-citation:
+  type: paper-conference
+
+  authors:
+    - family-names: Gopalakrishnan
+      given-names: Leechita
+
+  title: "Short-term Wind Power Ramp Forecasting Using Sequential Approach"
+
+  conference:
+    name: "2024 International Conference on Modeling, Simulation & Intelligent Computing (MoSICom)"
+    location: "Dubai, United Arab Emirates"
+
+  year: 2024
+
+  doi: "10.1109/MoSICom63082.2024.10881012"

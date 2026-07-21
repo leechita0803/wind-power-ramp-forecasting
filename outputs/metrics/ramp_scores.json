@@ -1,0 +1,8 @@
+{
+    "precision": 0.8112794131656664,
+    "recall": 1.0,
+    "f1_score": 0.8958081312785989,
+    "total_actual_ramps": 8516,
+    "total_predicted_ramps": 10497,
+    "matches": 8516
+}
