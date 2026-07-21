@@ -158,28 +158,28 @@ streamlit run app/streamlit_app.py
 
 ### Forecast Analysis
 
-![Forecast Analysis](screenshots/forcast analysis.png)
+![Forecast Analysis](screenshots/forcastanalysis.png)
 
 ---
 ### IMF Components
 
-![IMF Components](screenshots/IMF Components.png)
+![IMF Components](screenshots/IMFcomponents.png)
 ---
 ### Prediction Results
 
-![Prediction Results](screenshots/Prediction Results.png)
+![Prediction Results](screenshots/predictionresults.png)
 ---
 ### Ramp Detection
 
-![Ramp Detection](screenshots/ramp detection.png)
+![Ramp Detection](screenshots/rampdetection.png)
 ---
 ### Methodology
 
-![Methodology](screenshots/Methodology.png)
+![Methodology](screenshots/methodology.png)
 ---
 ### Research Findings
 
-![Methodology](screenshots/Research Findings.png)
+![Methodology](screenshots/researchfindings.png)
 ---
 
 ## ▶️ Installation
